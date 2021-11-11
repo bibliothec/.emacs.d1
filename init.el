@@ -44,3 +44,6 @@
 (setq make-backup-files nil)
 ;;#のバックアップファアイルを作らない
 (setq auto-save-default nil)
+
+(require 'smartparens)
+(smartparens-global-mode t)
